@@ -37,9 +37,12 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
 const answer = []
-for (let i = 0; i < bigOrSmallArray.length; i++){
+for (let i = 0; i < bigOrSmallArray.length; i++){ //8 times
 if (bigOrSmallArray[i] > 100){
 answer.push('big')
 }else {
   answer.push('small')
 }} console.log(answer)
+
+console.log(bigOrSmallArray[4])
+
